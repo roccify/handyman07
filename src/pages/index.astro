@@ -1,6 +1,9 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import Hero from '../components/Hero.astro';
+import SocialProofBar from '../components/SocialProofBar.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import Gallery from '../components/Gallery.astro';
 import Testimonials from '../components/Testimonials.astro';
 import QuoteForm from '../components/QuoteForm.astro';
 import content from '../data/content.json';
@@ -17,6 +20,9 @@ const homeServices = services.filter(s => (homepageServiceIds ?? services.map(s 
 
   <!-- 1. HERO -->
   <Hero />
+
+  <!-- 2. SOCIAL PROOF BAR -->
+  <SocialProofBar />
 
   <!-- 2. SERVICES: 6 cards, white bg, WP style -->
   <section class="py-20 bg-white">
@@ -72,10 +78,16 @@ const homeServices = services.filter(s => (homepageServiceIds ?? services.map(s 
     </div>
   </section>
 
-  <!-- 4. TESTIMONIALS -->
+  <!-- 4. HOW IT WORKS -->
+  <HowItWorks />
+
+  <!-- 5. OUR WORK GALLERY -->
+  <Gallery />
+
+  <!-- 6. TESTIMONIALS -->
   <Testimonials />
 
-  <!-- 5. FAQ -->
+  <!-- 7. FAQ -->
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-6 lg:px-10">
       <div class="text-center mb-14">
@@ -100,7 +112,7 @@ const homeServices = services.filter(s => (homepageServiceIds ?? services.map(s 
     </div>
   </section>
 
-  <!-- 6. CTA BANNER -->
+  <!-- 8. CTA BANNER -->
   <section class="py-16" style="background:#0f0f0f;">
     <div class="max-w-4xl mx-auto px-6 lg:px-10 text-center">
       <h2 class="text-4xl font-bold text-white mb-4">{ctaBanner.headline}</h2>
@@ -116,7 +128,7 @@ const homeServices = services.filter(s => (homepageServiceIds ?? services.map(s 
     </div>
   </section>
 
-  <!-- 7. QUOTE FORM -->
+  <!-- 9. QUOTE FORM -->
   <QuoteForm />
 
 </MainLayout>

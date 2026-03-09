@@ -148,9 +148,35 @@
     }
   ],
 
+  "socialProof": [
+    { "icon": "star",    "text": "Serving Rochester Since 2014" },
+    { "icon": "clock",   "text": "We Show Up On Time" },
+    { "icon": "dollar",  "text": "Flat-Rate Pricing, No Surprises" },
+    { "icon": "shield",  "text": "Free Estimates on All Jobs" }
+  ],
+
   "intro": {
     "text": "ReliableFix started in 2014 with one goal: Rochester homeowners deserve a handyman service that shows up on time, charges a fair price, and does the job right."
   },
+
+  "howItWorks": {
+    "headline": "How It Works",
+    "subheadline": "Getting started is simple. Here's what to expect when you reach out.",
+    "steps": [
+      { "number": "1", "title": "Request a Quote",      "description": "Call us or fill out the contact form. Tell us what needs fixing and we'll get back to you the same day." },
+      { "number": "2", "title": "Get a Flat-Rate Price", "description": "We assess the job and give you a clear price before we start — no hidden fees, no surprises when we're done." },
+      { "number": "3", "title": "We Fix It Right",       "description": "Our licensed technicians handle the job start to finish. We clean up and follow up to confirm everything is working." }
+    ]
+  },
+
+  "gallery": [
+    { "url": "/images/work-01.jpg", "alt": "Home maintenance repair Rochester NY", "title": "Home Maintenance",  "location": "Rochester, NY" },
+    { "url": "/images/work-02.jpg", "alt": "Drywall patching and repair",          "title": "Drywall Repair",    "location": "Brighton, NY" },
+    { "url": "/images/work-03.jpg", "alt": "Carpentry door repair",                "title": "Door Repair",       "location": "Irondequoit, NY" },
+    { "url": "/images/work-04.jpg", "alt": "Electrical outlet replacement",        "title": "Electrical Work",   "location": "Webster, NY" },
+    { "url": "/images/work-05.jpg", "alt": "Flooring installation and repair",     "title": "Flooring",          "location": "Fairport, NY" },
+    { "url": "/images/work-06.jpg", "alt": "Plumbing faucet replacement",          "title": "Plumbing Repair",   "location": "Greece, NY" }
+  ],
 
   "whyChooseUs": [
     { "icon": "shield", "title": "Licensed & Insured", "text": "Fully protected with general liability insurance and NY Home Improvement Contractor license." },
